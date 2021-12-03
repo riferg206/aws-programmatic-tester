@@ -1,37 +1,24 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Tiny framework designed for using pre-populated configuration files for rapid AWS testing
 
-### What is this repository for? ###
+# Usage #
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+clone down and install
 
-### How do I get set up? ###
+import apt
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+apt.invoke(*args)
 
-### Contribution guidelines ###
+to run in headless mode, substitute *args for a list names of your config files (as strings)
 
-* Writing tests
-* Code review
-* Other guidelines
+to run interactively, apt.invoke()
 
-### Who do I talk to? ###
+populate config files into the following directory structure to run your own custom configs:
 
-* Repo owner or admin
-* Other community or team contact
+\apt\config\configs\{*service*}\{*api_operation*}
 
-### Example installation command ###
+See example files in source for formatting
 
-* pip install git...
-
-### Further reading on Boto3 extensibility ###
-
-* https://boto3.amazonaws.com/v1/documentation/api/1.9.88/guide/events.html
+Reference boto3 documentation for specific payloads and arguments to use in your config:
+https://boto3.amazonaws.com/v1/documentation/api/1.9.88/reference/services/index.html
