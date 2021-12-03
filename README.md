@@ -16,7 +16,7 @@ to run interactively, apt.invoke()
 
 populate config files into the following directory structure to run your own custom configs:
 
-\apt\config\configs\{*service*}\{*api_operation*}
+\apt \ config\ configs\ {*service*}\ {*api_operation*}
 
 See example files in source for formatting
 
