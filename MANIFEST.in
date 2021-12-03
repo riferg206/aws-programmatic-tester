@@ -1,1 +1,1 @@
-include src/gatling/config/configs/*/*.ini
+include src/apt/config/configs/*/*.ini

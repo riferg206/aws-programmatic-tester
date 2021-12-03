@@ -1,0 +1,7 @@
+apt uses the following 3rd party open-source libraries
+
+boto3 - License: Apache 2.0
+Copyright 2013-2017 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+yaspin - License: MIT
+Copyright (c) 2021 Pavlo Dmytrenko
