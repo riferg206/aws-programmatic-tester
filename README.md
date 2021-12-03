@@ -2,6 +2,8 @@
 
 Tiny framework designed for using pre-populated configuration files for rapid AWS testing
 
+This project is implemented using a mostly functional style!
+
 # Usage #
 
 clone down and install
